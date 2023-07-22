@@ -1,0 +1,459 @@
+    .main {
+        width: 980px;
+        height: 455px;
+        margin-left: 220px;
+        margin-top: 10px;
+    }
+    
+    .focus {
+        float: left;
+        width: 721px;
+        height: 455px;
+        background-color: purple;
+    }
+    
+    .newsflash {
+        float: right;
+        width: 250px;
+        height: 455px;
+    }
+    
+    .news {
+        height: 165px;
+        border: 1px solid #e4e4e4;
+    }
+    
+    .news-hd {
+        height: 33px;
+        line-height: 33px;
+        border-bottom: 1px dotted #e4e4e4;
+        padding: 0 15px;
+    }
+    
+    .news-hd h5 {
+        float: left;
+        font-size: 14px;
+    }
+    
+    .news-hd .more {
+        float: right;
+    }
+    
+    .news-hd .more::after {
+        font-family: 'icomoon';
+        content: '\e913';
+    }
+    
+    .news-bd {
+        padding: 5px 15px 0;
+    }
+    
+    .news-bd ul li {
+        height: 24px;
+        line-height: 24px;
+        /* 溢出部分用省略号显示 */
+        /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    }
+    
+    .lifeservice {
+        position: relative;
+        overflow: hidden;
+        height: 209px;
+        border: 1px solid #e4e4e4;
+        border-top: 0;
+    }
+    
+    .lifeservice .ticket img {
+        position: absolute;
+        top: -1px;
+        right: 123px;
+    }
+    
+    .lifeservice ul {
+        width: 252px;
+    }
+    
+    .lifeservice ul li {
+        float: left;
+        width: 63px;
+        height: 71px;
+        border-right: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        text-align: center;
+    }
+    
+    .lifeservice ul li i {
+        display: inline-block;
+        width: 25px;
+        height: 28px;
+        margin-top: 12px;
+    }
+    
+    .phone i {
+        background: url(../images/icons.png) no-repeat -22px -15px;
+    }
+    
+    .ticket i {
+        background: url(../images/icons.png) no-repeat -83px -15px;
+    }
+    
+    .movie-tickets i {
+        background: url(../images/icons.png) no-repeat -145px -15px;
+    }
+    
+    .game i {
+        background: url(../images/icons.png) no-repeat -208px -15px;
+    }
+    
+    .lottery i {
+        background: url(../images/icons.png) no-repeat -21px -85px;
+    }
+    
+    .gas i {
+        background: url(../images/icons.png) no-repeat -83px -85px;
+    }
+    
+    .hotel i {
+        background: url(../images/icons.png) no-repeat -145px -85px;
+    }
+    
+    .train-ticket i {
+        background: url(../images/icons.png) no-repeat -208px -85px;
+    }
+    
+    .raise i {
+        background: url(../images/icons.png) no-repeat -21px -155px;
+    }
+    
+    .financial i {
+        background: url(../images/icons.png) no-repeat -82px -155px;
+    }
+    
+    .gift-card i {
+        background: url(../images/icons.png) no-repeat -144px -155px;
+    }
+    
+    .ious i {
+        background: url(../images/icons.png) no-repeat -207px -155px;
+    }
+    
+    .bargain {
+        margin-top: 5px;
+    }
+    /* 推荐模块 */
+    
+    .recommend {
+        height: 163px;
+        background-color: #ebebeb;
+        margin-top: 12px;
+    }
+    
+    .recommend-hd {
+        float: left;
+        width: 205px;
+        height: 163px;
+        background-color: #5c5251;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .recommend-bd {
+        float: left;
+    }
+    
+    .recommend-bd ul li {
+        position: relative;
+        float: left;
+    }
+    
+    .recommend-bd ul li img {
+        width: 248px;
+        height: 163px;
+    }
+    
+    .recommend-bd ul li:nth-child(-n+3):after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 10px;
+        width: 1px;
+        height: 145px;
+        background-color: #ddd;
+    }
+    /* 家用电器模块 */
+    
+    .box-hd {
+        height: 30px;
+        border-bottom: 2px solid #c81623;
+    }
+    
+    .box-hd h3 {
+        float: left;
+        font-size: 18px;
+        color: #c81623;
+        font-weight: 400;
+    }
+    
+    .tab-list {
+        float: right;
+        line-height: 30px;
+    }
+    
+    .tab-list ul li {
+        float: left;
+    }
+    
+    .tab-list ul li a {
+        margin: 0 15px;
+    }
+    
+    .floor .w {
+        margin-top: 30px;
+    }
+    
+    .box-bd {
+        height: 361px;
+        background-color: #fff;
+    }
+    
+    .tab-list-item>div {
+        float: left;
+        height: 361px;
+    }
+    
+    .col-210 {
+        width: 210px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+    
+    .col-210 ul li {
+        float: left;
+        width: 85px;
+        height: 34px;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        line-height: 33px;
+        margin-right: 10px;
+    }
+    
+    .col-210 ul {
+        padding-left: 12px;
+    }
+    
+    .col-329 {
+        width: 329px;
+    }
+    
+    .col-329 img {
+        height: 100%;
+    }
+    
+    .col-221 {
+        width: 221px;
+        border-right: 1px solid #ccc;
+    }
+    
+    .col-219 {
+        width: 219px;
+    }
+    
+    .bb {
+        /* 一般情况下，a如果包含有宽度的盒子，a需要转换为块级元素 */
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .box-footer {
+        height: 65px;
+        background-color: #f7f7f7;
+        margin-top: 25px;
+    }
+    
+    .box-footer ul li {
+        width: 120px;
+        height: 39px;
+        float: left;
+        text-align: center;
+        line-height: 39px;
+        margin-top: 13px;
+        border-right: 1px solid #ccc;
+    }
+    
+    .box-footer .last {
+        border-right: 0;
+    }
+    
+    .hot {
+        height: 311px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+    
+    .hot-hd {
+        height: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .hot-hd h3 {
+        font-size: 18px;
+    }
+    
+    .like {
+        height: 261px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .like-hd {
+        height: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .like-hd h3 {
+        float: left;
+        font-size: 18px;
+    }
+    
+    .like-hd a {
+        float: right;
+        margin-right: 21px;
+    }
+    
+    .like-hd a::after {
+        font-family: 'icomoon';
+        content: '\ea2e';
+        margin-left: 5px;
+    }
+    
+    .like-bd {
+        width: 1202px;
+        height: 233px;
+        border: 1px solid #ccc;
+    }
+    
+    .like-bd ul li {
+        float: left;
+        width: 200px;
+        height: 233px;
+    }
+    
+    .like-bd ul li a img {
+        width: 200px;
+    }
+    
+    .like-bd ul li p {
+        margin-bottom: 5px;
+        text-align: center;
+        border-right: 1px solid #ccc;
+    }
+    
+    .like-bd ul li p:hover {
+        color: #c81623;
+    }
+    
+    .like-bd .last-border {
+        border-right: 0;
+    }
+    
+    .like-bd ul li .price {
+        margin-left: 40px;
+    }
+    
+    .interest {
+        height: 435px;
+    }
+    
+    .inter-nav {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .big-box {
+        height: 407px;
+        border: 1px solid #ccc;
+    }
+    
+    .inter-left {
+        float: left;
+        height: 404px;
+        width: 404px;
+    }
+    
+    .inter-middle {
+        float: left;
+        width: 632px;
+        /* background-color: purple; */
+    }
+    
+    .middle-one {
+        float: left;
+        width: 227px;
+        height: 246px;
+    }
+    
+    .middle-one img {
+        padding: 25px 0 12px 8px;
+    }
+    
+    .middle-one h4 {
+        float: left;
+        width: 191px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-bottom: 1px dashed #ebebeb;
+    }
+    
+    .middle-two {
+        float: left;
+        width: 405px;
+        height: 246px;
+    }
+    
+    .middle-two h4 {
+        float: left;
+        width: 405px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-bottom: 1px dashed #ebebeb;
+        background-color: #f7f7f7;
+    }
+    
+    .left-img {
+        float: left;
+    }
+    
+    .right-img {
+        float: right;
+        background-color: #f7f7f7;
+    }
+    
+    .inter-right {
+        float: left;
+        width: 162px;
+        height: 405px;
+        padding: 10px;
+    }
+    
+    .inter-right ul li {
+        float: left;
+        width: 71px;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+        border-bottom: 1px dashed #ededed;
+    }
+    
+    .inter-right ul li:nth-child(odd) {
+        border-right: 1px dashed #ededed;
+    }
+    
+    .inter-right ul li a {
+        font-size: 14px;
+    }
